@@ -1,14 +1,17 @@
-📝 Descrição
+# Descrição 📝 
+
 Este projeto foi desenvolvido para xxx. A estrutura foi pensada para garantir a total reprodutibilidade e facilidade de execução através do uso de Docker.
 
-🛠️ Pré-requisitos
+# Pré-requisitos 🛠️
+
 Antes de começar, certifique-se de que você tem as seguintes ferramentas instaladas em seu sistema:
 
 Docker: https://www.docker.com/get-started
 
 Docker Compose: (geralmente já vem incluído na instalação do Docker Desktop)
 
-⚙️ Configuração
+# Configuração ⚙️
+
 Para configurar o projeto em seu ambiente local, siga os passos abaixo:
 
 1. Clone o repositório:
@@ -18,6 +21,7 @@ cd [NOME_DA_PASTA_DO_PROJETO]
 ```
 
 2. Variáveis de Ambiente (se aplicável):
+   
 Se o projeto utilizar um arquivo .env para gerenciar chaves de API ou outras configurações, renomeie o arquivo de exemplo e preencha com seus valores.
 ```
 mv .env.example .env
@@ -25,7 +29,8 @@ mv .env.example .env
 
 Depois, edite o arquivo .env com suas credenciais.
 
-▶️ Executando o Projeto
+# Executando o Projeto ▶️
+
 O projeto é totalmente containerizado, e o docker-compose.yaml orquestra todos os serviços necessários (API, banco de dados, etc.).
 
 Para iniciar a aplicação, execute o seguinte comando na raiz do projeto:
@@ -38,11 +43,13 @@ O argumento --build garante que as imagens Docker serão construídas do zero na
 Após a execução, todos os serviços definidos no arquivo docker-compose.yaml estarão em execução e prontos para uso.
 
 Para parar todos os contêineres, pressione Ctrl + C no terminal onde o compose está rodando, ou execute o seguinte comando em outro terminal (na mesma pasta):
+
 ```
 docker-compose down
 ```
 
-📂 Estrutura do Projeto
+# Estrutura do Projeto 📂
+
 A estrutura de pastas e arquivos está organizada da seguinte forma para facilitar a compreensão:
 ```
 .
@@ -58,7 +65,8 @@ A estrutura de pastas e arquivos está organizada da seguinte forma para facilit
 └── README.md           # Este arquivo.
 ```
 
-🚀 Uso
+# Uso 🚀
+
 Após iniciar os contêineres, a aplicação estará pronta para receber requisições.
 
 Exemplo de Endpoint da API:

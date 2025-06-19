@@ -20,7 +20,7 @@ O fluxo geral segue estes passos:
 
 1. Usuário envia uma pergunta via interface Streamlit.
 
-2. Um Agente Central analisa a pergunta e decide para qual agente ela deve ser roteada:
+2. Um Agente Central analisa a pergunta e faz uma classificação:
 
 * 'FAQ': para dúvidas gerais sobre a Hotmart (ex: funcionalidades, pagamentos, configurações)
 

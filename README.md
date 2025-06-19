@@ -22,9 +22,9 @@ O fluxo geral segue estes passos:
 
 2. Um Agente Central analisa a pergunta e faz uma classificação:
 
-* 'FAQ': para dúvidas gerais sobre a Hotmart (ex: funcionalidades, pagamentos, configurações)
+*   'FAQ': para dúvidas gerais sobre a Hotmart (ex: funcionalidades, pagamentos, configurações)
 
-* 'JOURNEY': para perguntas sobre o programa Hotmart Journey: Stars e Legacy (ex: benefícios, faturamento, status do usuário)
+*   'JOURNEY': para perguntas sobre o programa Hotmart Journey: Stars e Legacy (ex: benefícios, faturamento, status do usuário)
 
 3. A pergunta é então repassada para o agente adequado:
 

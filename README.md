@@ -2,6 +2,22 @@
 
 Este projeto foi desenvolvido para xxx. A estrutura foi pensada para garantir a total reprodutibilidade e facilidade de execução através do uso de Docker.
 
+projeto/
+├── Dockerfile
+├── docker-compose.yaml
+├── .env 
+├── exemplos/
+│   └── testes.sh        # Script para simular perguntas de FAQ e Journey
+├── faiss_index/         # Arquivos da base de conhecimento
+├── agentes.py           # Agente central, Agente para responder dúvidas de FAQ e Agente especialista em Hotmart Journey
+├── App.py               # Interface com streamlit para testar o protótipo
+├── vector_index.py      # Carregamento dos indíces da base de conhecimento
+├── ferramentas.py       # Ferramentas utilizadas pelos agentes
+├── agentes.py           # Agente central, Agente de FAQ e agente especialista em Hotmart Journey
+├── main_agent_router.py # Lógica de roteamento da pergunta do usuário, definindo qual agente será ativado com base no conteúdo da pergunta
+├── requirements.txt
+└── README.md              
+
 # Pré-requisitos 🛠️
 
 Antes de começar, certifique-se de que você tem as seguintes ferramentas instaladas em seu sistema:

@@ -67,23 +67,6 @@ Para parar todos os contêineres, pressione Ctrl + C no terminal onde o compose 
 docker-compose down
 ```
 
-# Estrutura do Projeto 📂
-
-A estrutura de pastas e arquivos está organizada da seguinte forma para facilitar a compreensão:
-```
-.
-├── docker-compose.yaml # Arquivo principal para orquestrar os contêineres.
-├── Dockerfile          # Define a imagem Docker para a aplicação principal.
-├── .env.example        # Exemplo de variáveis de ambiente.
-├── src/                # Pasta contendo todo o código-fonte da aplicação.
-│   ├── api/            # Módulos relacionados à API (endpoints, schemas).
-│   │   └── main.py
-│   ├── core/           # Lógica principal, prompts, etc.
-│   └── infra/          # Scripts de infraestrutura ou configuração.
-├── requirements.txt    # Dependências Python do projeto.
-└── README.md           # Este arquivo.
-```
-
 # Uso 🚀
 
 Após iniciar os contêineres, a aplicação estará pronta para receber requisições.

@@ -1,4 +1,4 @@
-# Sistema Multi-Agentes para Suporte Hotmart
+# Sistema Multi-Agentes para Suporte da Hotmart 🔥
 
 Sistema inteligente de atendimento ao cliente utilizando LLMs, RAG e Function Calling para responder perguntas sobre a Hotmart.
 

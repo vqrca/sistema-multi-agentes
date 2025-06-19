@@ -2,21 +2,24 @@
 
 Este projeto foi desenvolvido para xxx. A estrutura foi pensada para garantir a total reprodutibilidade e facilidade de execução através do uso de Docker.
 
+## 📁 Estrutura do Projeto
+
+```bash
 projeto/
-├── Dockerfile
-├── docker-compose.yaml
-├── .env 
+├── Dockerfile             # Define o ambiente Docker com Streamlit
+├── docker-compose.yaml    # Orquestra o container Docker e expõe a aplicação
+├── .env                   # Armazena a chave de API
 ├── exemplos/
-│   └── testes.sh        # Script para simular perguntas de FAQ e Journey
-├── faiss_index/         # Arquivos da base de conhecimento
-├── agentes.py           # Agente central, Agente para responder dúvidas de FAQ e Agente especialista em Hotmart Journey
-├── App.py               # Interface com streamlit para testar o protótipo
-├── vector_index.py      # Carregamento dos indíces da base de conhecimento
-├── ferramentas.py       # Ferramentas utilizadas pelos agentes
-├── agentes.py           # Agente central, Agente de FAQ e agente especialista em Hotmart Journey
-├── main_agent_router.py # Lógica de roteamento da pergunta do usuário, definindo qual agente será ativado com base no conteúdo da pergunta
-├── requirements.txt
-└── README.md              
+│   └── testes.sh          # Script para simular perguntas de FAQ e Journey via cURL
+├── faiss_index/           # Arquivos da base vetorial de conhecimento (gerados com FAISS)
+├── agentes.py             # Define o agente central, agente de FAQ e agente do programa Hotmart Journey
+├── App.py                 # Interface com Streamlit para testar o protótipo via web
+├── vector_index.py        # Carregamento dos índices da base de conhecimento com embeddings do Hugging Face
+├── ferramentas.py         # Ferramentas utilizadas pelos agentes (ex: busca FAISS, API mockada)
+├── main_agent_router.py   # Lógica de roteamento da pergunta, definindo qual agente será acionado
+├── requirements.txt       # Dependências necessárias para rodar o projeto
+└── README.md              # Documentação geral do projeto
+```
 
 # Pré-requisitos 🛠️
 

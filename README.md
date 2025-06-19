@@ -128,7 +128,7 @@ bash testes/abrir_app.sh
 cat testes/perguntas_exemplo.txt
 ```
 
-##📄 Relatório Final
+## 📄 Relatório Final
 Para complementar a entrega, foi elaborado um relatório detalhado com a estratégia de validação, métricas utilizadas e uma análise da qualidade das respostas geradas pelos agentes.
 
 👉 [Clique aqui para acessar o relatório final](https://github.com/vqrca/sistema-multi-agentes/blob/main/relatorio_final.md)

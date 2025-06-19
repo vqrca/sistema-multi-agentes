@@ -6,9 +6,9 @@ Sistema inteligente de atendimento ao cliente utilizando LLMs, RAG e Function Ca
 
 O sistema é composto por 3 agentes principais:
 
-* Agente Central: Gerencia a comunicação e roteamento das conversas
-* Agente FAQ: Busca informações na base de conhecimento usando RAG
-* Agente Hotmart Journey: Especialista em "Conheça a Hotmart Journey: Stars e Legacy" com acesso a dados personalizados de usuários
+* **Agente Central:** Gerencia a comunicação e roteamento das conversas
+* **Agente FAQ:** Busca informações na base de conhecimento usando RAG
+* **Agente Hotmart Journey:** Especialista em "Conheça a Hotmart Journey: Stars e Legacy" com acesso a dados personalizados de usuários
 
 
 <p align="left">

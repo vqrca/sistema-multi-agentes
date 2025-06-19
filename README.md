@@ -37,7 +37,7 @@ O fluxo geral segue estes passos:
 
 ## 🧰 Tecnologias utilizadas
 
-Este projeto foi desenvolvido com foco em modularidade, performance e reprodutibilidade. As principais tecnologias utilizadas são:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 
 | Tecnologia | Descrição |
 |------------|-----------|

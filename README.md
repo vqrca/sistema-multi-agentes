@@ -128,5 +128,16 @@ bash testes/abrir_app.sh
 cat testes/perguntas_exemplo.txt
 ```
 
+##📄 Relatório Final
+Para complementar a entrega, foi elaborado um relatório detalhado com a estratégia de validação, métricas utilizadas e uma análise da qualidade das respostas geradas pelos agentes.
+
+👉 [Clique aqui para acessar o relatório final](https://github.com/vqrca/sistema-multi-agentes/blob/main/relatorio_final.md)
+
+O relatório aborda como o sistema lida com perguntas ambíguas, como os agentes são avaliados com base em relevância e precisão, e apresenta sugestões para evolução futura do protótipo.
+
+Este projeto demonstra como agentes inteligentes, combinados com LLMs e técnicas de RAG, podem ser aplicados para melhorar o suporte ao cliente de forma personalizada e escalável. A arquitetura modular permite fácil expansão para novos domínios e fluxos de atendimento.
+
+Mais do que um protótipo funcional, esta solução propõe uma abordagem realista e reprodutível para construir sistemas conversacionais baseados em conhecimento, com atenção à qualidade, relevância e capacidade de adaptação.
+
 
 

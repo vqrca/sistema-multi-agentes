@@ -55,4 +55,6 @@ cd sistema-multi-agentes
 ```bash
 docker-compose up --build
 ```
+A aplicação será executada na porta 8501. Acesse no navegador:
+http://localhost:8501
 

@@ -11,8 +11,8 @@ O sistema é composto por 3 agentes principais:
 * Agente Hotmart Journey: Especialista em "Conheça a Hotmart Journey: Stars e Legacy" com acesso a dados personalizados de usuários
 
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/vqrca/sistema-multi-agentes/main/Imagens/fluxo.png" width="50%"/>
+<p align="left">
+  <img src="https://raw.githubusercontent.com/vqrca/sistema-multi-agentes/main/Imagens/fluxo.png" width="70%"/>
 </p>
 
 

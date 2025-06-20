@@ -95,7 +95,7 @@ projeto/
 
 Você pode acessar a aplicação diretamente, sem precisar instalar nada localmente.
 
-👉 [Clique aqui para acessar no Streamlit Cloud](https://sistema-multi-agentes.streamlit.app)
+👉 [Clique aqui para acessar no Streamlit Cloud](https://sistema-multi-agentes-atendimento.streamlit.app/)
 
 > A aplicação está hospedada e pronta para testes com perguntas gerais e personalizadas usando IDs.
 

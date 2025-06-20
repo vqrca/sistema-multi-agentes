@@ -100,14 +100,13 @@ Avaliação manual baseada em critérios de completude, clareza e adequação da
   <img src="https://github.com/user-attachments/assets/b2b9ffab-5304-4237-ba16-f5a9c704e033"width="50%"/>
 </p>
 
-* **Consultas Complexas:** Para perguntas longas com múltiplos tópicos, o sistema pode acabar tentando responder, mas pede mais informações. 
+* **Consultas Complexas:** Para perguntas longas com múltiplos tópicos, o sistema pode acabar tentando responder, mas pede mais informações. O importante é que o agente não tenta inventar informações!
 
 > Ex: “Quero saber sobre meu acesso ao Stars e também como mudar o cartão cadastrado.”
 <p align="left">
   <img src="https://github.com/user-attachments/assets/37e21500-c056-4843-8b0d-4a24b8d4ff80"width="50%"/>
 
 
-Observação: A queda na pontuação de perguntas ambíguas evidencia a necessidade de refinamento do classificador inicial ou de uma resposta padrão de redirecionamento com coleta ativa de contexto.
 
 ## 4. Considerações finais
 O sistema se mostrou funcional e coerente com os objetivos propostos, demonstrando capacidade de roteamento inteligente, resposta contextualizada e personalização.

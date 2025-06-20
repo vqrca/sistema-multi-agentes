@@ -118,7 +118,7 @@ Este projeto foi desenvolvido para ser facilmente executado usando Docker e Dock
 
 ```bash
 git clone https://github.com/vqrca/sistema-multi-agentes.git
-cd sistema-multi-agentes
+cd sistema-multi-agentes/projeto
 ```
 
 #### 2. Construa e execute a aplicação

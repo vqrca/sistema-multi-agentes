@@ -95,7 +95,7 @@ projeto/
 
 A aplicação está disponível para uso direto no navegador — não é necessário instalar nada localmente.
 
-👉 [Clique aqui para acessar no Streamlit Cloud](https://sistema-multi-agentes-atendimento.streamlit.app/)
+👉 [Clique aqui para acessar no Streamlit Cloud](https://sistema-atendimento-multiagentes-rag.streamlit.app/)
 
 Você pode testar o sistema com perguntas gerais ou personalizadas utilizando IDs.
 

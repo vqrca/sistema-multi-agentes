@@ -44,6 +44,17 @@ O fluxo geral segue estes passos:
 
 6. A resposta é exibida diretamente na interface para o usuário.
 
+## 🧠 Construção da base vetorial (FAQ)
+A base de conhecimento utilizada pelo agente de FAQ foi construída a partir de uma planilha contendo os artigos da Hotmart. O processo envolveu as seguintes etapas:
+
+* **Carregamento dos dados:** a planilha foi carregada utilizando a biblioteca pandas;
+
+* **Estruturação dos documentos:** cada artigo foi transformado em um documento contendo o conteúdo do texto e seus metadados (nome do artigo e URL) com a biblioteca LlamaIndex;
+
+* **Geração dos embeddings:** os documentos passaram pelo processo de Embedding por meio do modelo `intfloat/multilingual-e5-large`, da `HuggingFaceEmbedding`; 
+
+* **Indexação vetorial:** os embeddings gerados foram armazenados em um banco vetorial utilizando o FAISS, permitindo que o agente de FAQ recupere os artigos mais relevantes com base na similaridade com a pergunta do usuário.
+
 
 ## 🧰 Tecnologias utilizadas
 

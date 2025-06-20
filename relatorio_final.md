@@ -79,7 +79,7 @@ Avalia se a classificação feita pelo agente central foi correta:
 |--------------------------|--------------|---------------------|---------------|
 | FAQ                      | 10           | 10                  | 100%          |
 | Journey (com faturamento)| 10            | 10                   | 100%         |
-| Ambíguas                 | 10            | 8                 | 80%         |
+| Ambíguas                 | 10            | 7                 | 70%         |
 
 b) Relevância da Resposta
 Avaliação manual baseada em critérios de completude, clareza e adequação da resposta (em escala de 1 a 5):

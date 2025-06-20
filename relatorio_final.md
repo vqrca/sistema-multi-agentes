@@ -15,11 +15,11 @@ A arquitetura foi reformulada com base em uma estratégia de roteamento intelige
 1. Classificação Prévia: O agente central analisa e categoriza a consulta antes do processamento
 
 2. Roteamento Condicional: Direcionamento específico baseado na classificação:
-
-* FAQ: Consultas gerais → Agente de Busca RAG
-* Journey: Consultas sobre faturamento/programas → Agente Especialista Journey
-
+    * FAQ: Consultas gerais → Agente de Busca RAG
+    * Journey: Consultas sobre faturamento/programas → Agente Especialista Journey
+   
 Com isso, consegui otimizar o processo com a ativação apenas do agente necessário para cada tipo de consulta.
+
 ---
 
 ## 2. Estratégia de Validação e Metrificação

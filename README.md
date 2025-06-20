@@ -103,21 +103,30 @@ Você pode testar o sistema com perguntas gerais ou personalizadas utilizando ID
 
 ---
 
-## 🔁 Como executar localmente com Docker
+## 🔁 Como executar localmente
 
-Este projeto foi desenvolvido para ser facilmente executado usando Docker e Docker Compose. Siga os passos abaixo para rodar a aplicação localmente:
+Este projeto pode ser executado de duas formas: usando Docker ou diretamente com Python. Escolha a opção que preferir:
 
 ### ✅ Pré-requisitos
 
+**Para ambas as opções:**
+- Git instalado: [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+**Para execução com Docker:**
 - Docker instalado: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
 - Docker Compose (já incluído nas versões atuais do Docker)
 
+**Para execução direta com Python:**
+- Python 3.8 ou superior instalado: [https://www.python.org/downloads/](https://www.python.org/downloads/)
+- pip (gerenciador de pacotes Python)
+
 ---
+
+## 🐳 Opção 1: Execução com Docker
 
 ### 🚀 Passo a passo
 
 #### 1. Clone o repositório
-
 ```bash
 git clone https://github.com/vqrca/sistema-multi-agentes.git
 cd sistema-multi-agentes/projeto
@@ -125,17 +134,57 @@ cd sistema-multi-agentes/projeto
 
 #### 2. Configure a chave de API da Groq
 No diretório projeto, edite o arquivo `.env` (já presente no repositório) e adicione a sua [chave de API da Groq](https://console.groq.com/keys) na variável GROQ_API_KEY:
+
 ```bash
 GROQ_API_KEY=coloque_sua_chave_aqui
 ```
+
 🔐 Essa variável será utilizada de forma segura no ambiente da aplicação.
 
 #### 3. Construa e execute a aplicação
 ```bash
 docker-compose up --build
 ```
+
 A aplicação será executada na porta 8501. Acesse no navegador:
 http://localhost:8501
+
+---
+
+## 🐍 Opção 2: Execução direta com Python
+
+### 🚀 Passo a passo
+
+#### 1. Clone o repositório
+```bash
+git clone https://github.com/vqrca/sistema-multi-agentes.git
+cd sistema-multi-agentes/projeto
+```
+
+#### 2. Configure a chave de API da Groq
+Edite o arquivo `.env` e adicione a sua [chave de API da Groq](https://console.groq.com/keys) entre aspas na variável GROQ_API_KEY:
+
+```bash
+vim .env
+```
+
+Adicione sua chave:
+```bash
+GROQ_API_KEY="sua_chave_groq_aqui"
+```
+
+#### 3. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+
+#### 4. Execute a aplicação
+```bash
+python -m streamlit run App.py
+```
+
+A aplicação será aberta automaticamente no navegador na porta 8502:
+http://localhost:8502
 
 ## 🧪 Testes e Reprodutibilidade
 

@@ -97,9 +97,9 @@ Você pode acessar a aplicação diretamente, sem precisar instalar nada localme
 
 👉 [Clique aqui para acessar no Streamlit Cloud](https://sistema-multi-agentes-atendimento.streamlit.app/)
 
-> A aplicação está hospedada e pronta para testes com perguntas gerais e personalizadas usando IDs.
+Você pode testar o sistema com perguntas gerais ou personalizadas utilizando IDs.
 
-🔐 Observação: A aplicação já está configurada com uma chave de API da Groq exclusiva para este projeto, podendo ser utilizada normalmente nos testes online.
+> 🔐 **Importante:** A aplicação já conta com uma chave de API da Groq, adicionada de forma segura e secreta ao ambiente do projeto. Isso permite que você explore todas as funcionalidades normalmente, sem se preocupar com autenticação ou configuração manual.
 
 ---
 

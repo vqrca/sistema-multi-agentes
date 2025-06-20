@@ -105,22 +105,9 @@ Você pode testar o sistema com perguntas gerais ou personalizadas utilizando ID
 
 ## 🔁 Como executar localmente
 
-Este projeto pode ser executado de duas formas: usando Docker ou diretamente com Python. Escolha a opção que preferir:
+Este projeto pode ser executado de duas formas: usando Docker ou Git. Escolha a opção que preferir:
 
 ### ✅ Pré-requisitos
-
-**Para ambas as opções:**
-- Git instalado: [https://git-scm.com/downloads](https://git-scm.com/downloads)
-
-**Para execução com Docker:**
-- Docker instalado: [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)
-- Docker Compose (já incluído nas versões atuais do Docker)
-
-**Para execução direta com Python:**
-- Python 3.8 ou superior instalado: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-- pip (gerenciador de pacotes Python)
-
----
 
 ## 🐳 Opção 1: Execução com Docker
 
@@ -151,7 +138,7 @@ http://localhost:8501
 
 ---
 
-## 🐍 Opção 2: Execução direta com Python
+## 🔀 Opção 2: Execução com Git
 
 ### 🚀 Passo a passo
 

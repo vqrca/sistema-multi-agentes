@@ -78,15 +78,15 @@ Avalia se a classificação feita pelo agente central foi correta:
 | Tipo de Pergunta         | Nº de Testes | Roteamento Correto | Precisão (%) |
 |--------------------------|--------------|---------------------|---------------|
 | FAQ                      | 10           | 10                  | 100%          |
-| Journey (com faturamento)| 8            | 7                   | 87,5%         |
-| Ambíguas                 | 6            | 5                   | 83,3%         |
+| Journey (com faturamento)| 10            | 10                   | 100%         |
+| Ambíguas                 | 10            | 7                   | 70%         |
 
 b) Relevância da Resposta
 Avaliação manual baseada em critérios de completude, clareza e adequação da resposta (em escala de 1 a 5):
 
 | Tipo de Pergunta | Média de Relevância |
 |------------------|---------------------|
-| FAQ              | 4,6                 |
+| FAQ              | 4,5                |
 | Journey          | 4,8                 |
 | Ambíguas         | 3,9                 |
 

@@ -78,8 +78,8 @@ projeto/
 ├── Dockerfile             # Define o ambiente Docker com Streamlit
 ├── docker-compose.yaml    # Orquestra o container Docker e expõe a aplicação
 ├── .env                   # Armazena a chave de API
-├── exemplos/
-│   └── testes.txt         # Arquivo com perguntas de FAQ e Journey para serem testadas
+├── testes/
+│   └── perguntas_exemplo.txt         # Arquivo com perguntas de FAQ e Journey para serem testadas
 ├── faiss_index/           # Arquivos da base vetorial de conhecimento (gerados com FAISS)
 ├── agentes.py             # Define o agente central, agente de FAQ e agente do programa Hotmart Journey
 ├── App.py                 # Interface com Streamlit para testar o protótipo via web
@@ -135,20 +135,6 @@ Para facilitar os testes da aplicação, este repositório inclui exemplos de pe
 ### 📂 Arquivos disponíveis
 
 - `testes/perguntas_exemplo.txt`: contém um conjunto de perguntas prontas para copiar e colar na interface.
-- `testes/abrir_app.sh`: script shell para abrir automaticamente a aplicação no navegador local (`http://localhost:8501`).
-
-### ▶️ Como testar
-
-1. Após executar o projeto com Docker (veja seção anterior), rode no terminal:
-
-```bash
-bash testes/abrir_app.sh
-```
-
-2. Em seguida, visualize as perguntas de teste com:
-```bash
-cat testes/perguntas_exemplo.txt
-```
 
 ## 📄 Relatório Final
 Para complementar a entrega, foi elaborado um relatório detalhado com a estratégia de validação, métricas utilizadas e uma análise da qualidade das respostas geradas pelos agentes.

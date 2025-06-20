@@ -123,7 +123,14 @@ git clone https://github.com/vqrca/sistema-multi-agentes.git
 cd sistema-multi-agentes/projeto
 ```
 
-#### 2. Construa e execute a aplicação
+#### 2. Configure a chave de API da Groq
+No diretório projeto, edite o arquivo `.env` (já presente no repositório) e adicione a sua [chave de API da Groq](https://console.groq.com/keys) na variável GROQ_API_KEY:
+```bash
+GROQ_API_KEY=coloque_sua_chave_aqui
+```
+🔐 Essa variável será utilizada de forma segura no ambiente da aplicação.
+
+#### 3. Construa e execute a aplicação
 ```bash
 docker-compose up --build
 ```

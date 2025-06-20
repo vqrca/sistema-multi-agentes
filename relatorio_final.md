@@ -109,7 +109,7 @@ Avaliação manual baseada em critérios de completude, clareza e adequação da
 
 
 ## 4. Considerações finais
-O sistema se mostrou funcional e coerente com os objetivos propostos, demonstrando capacidade de roteamento inteligente, resposta contextualizada e personalização.
+Embora o modelo apresente limitações em perguntas ambíguas ou mais complexas, ele se mostrou funcional e alinhado aos objetivos propostos, com bom desempenho na maioria dos casos. Demonstrou capacidade de roteamento inteligente, respostas contextualizadas e personalização eficaz.
 
 Como próximos passos, é possível:
 

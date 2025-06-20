@@ -93,7 +93,7 @@ projeto/
 
 ## 🚀 Teste online via Streamlit Cloud
 
-Você pode acessar a aplicação diretamente, sem precisar instalar nada localmente.
+A aplicação está disponível para uso direto no navegador — não é necessário instalar nada localmente.
 
 👉 [Clique aqui para acessar no Streamlit Cloud](https://sistema-multi-agentes-atendimento.streamlit.app/)
 

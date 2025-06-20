@@ -121,7 +121,7 @@ Como próximos passos, é possível:
   
   - Identificar falhas, sessões mal roteadas e oportunidades de refino nos prompts e nos agentes;
   
-* Implementar coleta de feedback dos usuários finais para aprimorar o sistema.
+* Implementar coleta de feedback de usuários para aprimorar o sistema.
 
 Essas integrações permitirão não apenas refinar a performance do sistema, como também manter um ciclo contínuo de melhoria baseado em dados reais de uso.
 

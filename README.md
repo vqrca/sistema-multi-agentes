@@ -132,7 +132,7 @@ http://localhost:8501
 
 Para facilitar os testes da aplicação, este repositório inclui exemplos de perguntas que podem ser usadas tanto para dúvidas gerais quanto para consultas personalizadas com ID de usuário.
 
-### 📂 Arquivos disponíveis
+#### 📂 Arquivos disponíveis
 
 - `testes/perguntas_exemplo.txt`: contém um conjunto de perguntas prontas para copiar e colar na interface.
 

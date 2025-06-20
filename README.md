@@ -99,6 +99,8 @@ Você pode acessar a aplicação diretamente, sem precisar instalar nada localme
 
 > A aplicação está hospedada e pronta para testes com perguntas gerais e personalizadas usando IDs.
 
+🔐 Observação: A aplicação já está configurada com uma chave de API da Groq exclusiva para este projeto, podendo ser utilizada normalmente nos testes online.
+
 ---
 
 ## 🔁 Como executar localmente com Docker

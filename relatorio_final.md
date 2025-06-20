@@ -92,14 +92,20 @@ Avaliação manual baseada em critérios de completude, clareza e adequação da
 
 ## 3. Tratamento de Ambiguidades e Complexidade
 
-* **Ambiguidade:** Quando a pergunta é genérica, o agente central tenta extrair palavras-chave e, caso não consiga classificar com confiança, retorna com uma solicitação de refinamento:
+* **Ambiguidade:** Quando a pergunta é genérica, o agente central tenta extrair palavras-chave e, pede por detalhes.
 
-> “Você poderia me dar mais detalhes sobre sua dúvida? Está relacionada a pagamento, benefícios ou outro assunto?”
+> Ex: Me ajuda com benefícios da plataforma."
 
-* **Consultas Complexas:** Para perguntas longas com múltiplos tópicos, o sistema divide a questão e processa em etapas:
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/b2b9ffab-5304-4237-ba16-f5a9c704e033"width="50%"/>
+</p>
+
+* **Consultas Complexas:** Para perguntas longas com múltiplos tópicos, o sistema pode acabar tentando responder, mas pede mais informações. 
 
 > Ex: “Quero saber sobre meu acesso ao Stars e também como mudar o cartão cadastrado.”
-→ Primeiro, envia para o agente Journey → depois, passa para o RAG.
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/37e21500-c056-4843-8b0d-4a24b8d4ff80"width="50%"/>
+
 
 Observação: A queda na pontuação de perguntas ambíguas evidencia a necessidade de refinamento do classificador inicial ou de uma resposta padrão de redirecionamento com coleta ativa de contexto.
 

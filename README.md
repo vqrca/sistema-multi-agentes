@@ -99,7 +99,7 @@ Você pode acessar a aplicação diretamente, sem precisar instalar nada localme
 
 Você pode testar o sistema com perguntas gerais ou personalizadas utilizando IDs.
 
-> 🔐 **Importante:** A aplicação já conta com uma chave de API da Groq, adicionada de forma segura e secreta ao ambiente do projeto. Isso permite que você explore todas as funcionalidades normalmente, sem se preocupar com autenticação ou configuração manual.
+🔐 **Importante:** A aplicação já conta com uma chave de API da Groq, adicionada de forma segura e secreta ao ambiente do projeto. Isso permite que você explore todas as funcionalidades normalmente, sem se preocupar com autenticação ou configuração manual.
 
 ---
 

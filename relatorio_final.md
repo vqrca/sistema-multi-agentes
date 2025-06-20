@@ -16,8 +16,8 @@ A arquitetura foi reformulada com base em uma estratégia de roteamento intelige
 
 2. Roteamento Condicional: Direcionamento específico baseado na classificação:
 
-*     FAQ: Consultas gerais → Agente de Busca RAG
-*     Journey: Consultas sobre faturamento/programas → Agente Especialista Journey
+* FAQ: Consultas gerais → Agente de Busca RAG
+* Journey: Consultas sobre faturamento/programas → Agente Especialista Journey
 
 Com isso, consegui otimizar o processo com a ativação apenas do agente necessário para cada tipo de consulta.
 ---
@@ -29,22 +29,45 @@ Para validar o sistema, as perguntas foram divididas em três categorias:
 
 **Consultas Gerais da FAQ**
 > Ex: "Como mudo meu e-mail na Hotmart?"
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/5f962762-63a3-490b-bdf1-c5f0d38fc95f"width="50%"/>
 
 > Ex: "Quais formas de pagamento vocês aceitam?"
-→ Esperado: Resposta via Agente de Busca RAG.
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/42589d7a-f91b-46e3-9e08-cf52ce5153e8"width="50%"/>
 
 **Consultas sobre o programa Hotmart Journey: Stars e Legacy**
-> Ex:"Tenho direito ao Legacy? Já bati 10k de faturamento."
+> Ex:"Tenho direito ao Legacy? Já bati 10k de faturamento. Meu ID é 456"
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/f9734326-0c16-4bf5-8d15-05bb37d95c97"width="50%"/>
 
-> Ex: "Quais são os critérios para entrar no Stars?"
-→ Esperado: Resposta personalizada via Function Calling com simulação de API do usuário.
+> Ex: "Quais são os meus benefícios? ID 908"
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/8002eb77-7b9d-4d0c-91e5-e6c9407b59ca"width="50%"/>
+
+> Tentando IDs que não existem na base de dados fictícia:
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/49f22b5a-95fe-4025-9f6c-1cdb138f60d4"width="50%"/>
+</p>
 
 **Consultas Ambíguas ou Genéricas**
+
 > Ex: "Quero saber mais sobre a Hotmart."
+
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/f43d318a-f359-4dfc-af0b-21dd90570365"width="50%"/>
+</p>
 
 > Ex: Me ajuda com benefícios da plataforma."
 
-→ Esperado: Classificação e roteamento correto pelo agente central, mesmo com baixa especificidade.
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/b2b9ffab-5304-4237-ba16-f5a9c704e033"width="50%"/>
+</p>
+
+> Ex: "O que é Hotmart Journey?"
+<p align="left">
+  <img src="https://github.com/user-attachments/assets/f017bb0e-cd04-4d4a-b8fc-60b71d0b8ef4"width="50%"/>
+
 
 ## 2.2. Métricas Utilizadas
 Para mensurar a qualidade das respostas, utilizei as seguintes métricas qualitativas e quantitativas:
@@ -87,12 +110,13 @@ Como próximos passos, é possível:
 
 * Integrar ferramentas de observabilidade como LangSmith e LangWatch para:
 
-*     Monitorar o desempenho dos agentes (tempo de execução, fluxo de chamadas, histórico de respostas);
-
-*     Avaliar a qualidade das respostas com análises manuais ou automáticas;
-
-*     Identificar falhas, sessões mal roteadas e oportunidades de refino nos prompts e nos agentes;
-*  Implementar coleta de feedback dos usuários finais para aprimorar o sistema.
+  - Monitorar o desempenho dos agentes (tempo de execução, fluxo de chamadas, histórico de respostas);
+  
+  - Avaliar a qualidade das respostas com análises manuais ou automáticas;
+  
+  - Identificar falhas, sessões mal roteadas e oportunidades de refino nos prompts e nos agentes;
+  
+* Implementar coleta de feedback dos usuários finais para aprimorar o sistema.
 
 Essas integrações permitirão não apenas refinar a performance do sistema, como também manter um ciclo contínuo de melhoria baseado em dados reais de uso.
 

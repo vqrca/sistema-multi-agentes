@@ -8,7 +8,7 @@ Sistema inteligente de atendimento ao cliente utilizando LLMs, RAG e Function Ca
 - [🧰 Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [📁 Estrutura do Projeto](#-estrutura-do-projeto)
 - [🚀 Aplicação online via Streamlit Cloud](#-teste-online-via-streamlit-cloud)
-- [🔁 Como executar localmente com Docker](#-como-executar-localmente-com-docker)
+- [🔁 Como executar localmente](#-como-executar-localmente-com-docker)
 - [🧪 Testes e Reprodutibilidade](#-testes-e-reprodutibilidade)
 - [📄 Relatório Final](#-relatório-final)
 
@@ -107,19 +107,17 @@ Você pode testar o sistema com perguntas gerais ou personalizadas utilizando ID
 
 Este projeto pode ser executado de duas formas: usando Docker ou Git. Escolha a opção que preferir:
 
-### ✅ Pré-requisitos
+### 🐳 Opção 1: Execução com Docker
 
-## 🐳 Opção 1: Execução com Docker
+#### 🚀 Passo a passo
 
-### 🚀 Passo a passo
-
-#### 1. Clone o repositório
+##### 1. Clone o repositório
 ```bash
 git clone https://github.com/vqrca/sistema-multi-agentes.git
 cd sistema-multi-agentes/projeto
 ```
 
-#### 2. Configure a chave de API da Groq
+##### 2. Configure a chave de API da Groq
 No diretório projeto, edite o arquivo `.env` (já presente no repositório) e adicione a sua [chave de API da Groq](https://console.groq.com/keys) na variável GROQ_API_KEY:
 
 ```bash
@@ -128,7 +126,7 @@ GROQ_API_KEY=coloque_sua_chave_aqui
 
 🔐 Essa variável será utilizada de forma segura no ambiente da aplicação.
 
-#### 3. Construa e execute a aplicação
+##### 3. Construa e execute a aplicação
 ```bash
 docker-compose up --build
 ```
@@ -138,17 +136,17 @@ http://localhost:8501
 
 ---
 
-## 🔀 Opção 2: Execução com Git
+### 🔀 Opção 2: Execução com Git
 
-### 🚀 Passo a passo
+#### 🚀 Passo a passo
 
-#### 1. Clone o repositório
+##### 1. Clone o repositório
 ```bash
 git clone https://github.com/vqrca/sistema-multi-agentes.git
 cd sistema-multi-agentes/projeto
 ```
 
-#### 2. Configure a chave de API da Groq
+##### 2. Configure a chave de API da Groq
 Edite o arquivo `.env` e adicione a sua [chave de API da Groq](https://console.groq.com/keys) entre aspas na variável GROQ_API_KEY:
 
 ```bash
@@ -160,12 +158,12 @@ Adicione sua chave:
 GROQ_API_KEY="sua_chave_groq_aqui"
 ```
 
-#### 3. Instale as dependências
+##### 3. Instale as dependências
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 4. Execute a aplicação
+##### 4. Execute a aplicação
 ```bash
 python -m streamlit run App.py
 ```

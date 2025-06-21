@@ -8,7 +8,7 @@ Sistema inteligente de atendimento ao cliente utilizando LLMs, RAG e Function Ca
 - [🧰 Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [📁 Estrutura do Projeto](#-estrutura-do-projeto)
 - [🚀 Aplicação online via Streamlit Cloud](#-teste-online-via-streamlit-cloud)
-- [🔁 Como executar localmente](#-como-executar-localmente-com-docker)
+- [🔁 Como executar localmente](#-como-executar-localmente)
 - [🧪 Testes e Reprodutibilidade](#-testes-e-reprodutibilidade)
 - [📄 Relatório Final](#-relatório-final)
 

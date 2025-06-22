@@ -81,10 +81,10 @@ projeto/
 ├── testes/
 │   └── perguntas_exemplo.txt         # Arquivo com perguntas de FAQ e Journey para serem testadas
 ├── faiss_index/                      # Arquivos da base vetorial de conhecimento (gerados com FAISS)
-├── agentes.py                        # Define o agente central, agente de FAQ e agente do programa Hotmart Journey
+├── agents.py                        # Define o agente central, agente de FAQ e agente do programa Hotmart Journey
 ├── App.py                            # Interface com Streamlit para testar o protótipo via web
 ├── vector_index.py                   # Carregamento dos índices da base de conhecimento com embeddings do Hugging Face
-├── ferramentas.py                    # Ferramentas utilizadas pelos agentes 
+├── tools.py                    # Ferramentas utilizadas pelos agentes 
 ├── main_agent_router.py              # Lógica de roteamento da pergunta, definindo qual agente será acionado
 ├── mock_data.py                      # Dados de usuários fictícios   
 ├── requirements.txt                  # Dependências necessárias para rodar o projeto

@@ -82,7 +82,7 @@ projeto/
 │   └── perguntas_exemplo.txt         # Arquivo com perguntas de FAQ e Journey para serem testadas
 ├── faiss_index/                      # Arquivos da base vetorial de conhecimento (gerados com FAISS)
 ├── agents.py                        # Define o agente central, agente de FAQ e agente do programa Hotmart Journey
-├── App.py                            # Interface com Streamlit para testar o protótipo via web
+├── app.py                            # Interface com Streamlit para testar o protótipo via web
 ├── vector_index.py                   # Carregamento dos índices da base de conhecimento com embeddings do Hugging Face
 ├── tools.py                    # Ferramentas utilizadas pelos agentes 
 ├── main_agent_router.py              # Lógica de roteamento da pergunta, definindo qual agente será acionado
@@ -165,7 +165,7 @@ pip install -r requirements.txt
 
 ##### 4. Execute a aplicação
 ```bash
-python -m streamlit run App.py
+python -m streamlit run app.py
 ```
 
 A aplicação será aberta automaticamente no navegador na porta 8502:

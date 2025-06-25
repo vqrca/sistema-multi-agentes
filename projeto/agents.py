@@ -119,7 +119,7 @@ journey_agent = Agent(
 
     INSTRUÇÕES IMPORTANTES:
     1. Identifique o ID do usuário na pergunta 
-    2. Após identificar o ID de usuário, use OBRIGATORIAMENTE a ferramenta 'obter_info_usuario'
+    2. Após identificar o ID de usuário, use OBRIGATORIAMENTE a ferramenta 'get_user_info'
     3. Analise os dados retornados
     4. Forneça uma resposta personalizada e completa
     5. Para perguntas sobre "próximo nível" ou "como evoluir":
@@ -129,6 +129,6 @@ journey_agent = Agent(
        - NUNCA invente prazos ou datas
 
     Exemplo de uso da ferramenta:
-    - Se perguntarem sobre o usuário 456, execute: obter_info_usuario("456")."""
+    - Se perguntarem sobre o usuário 456, execute: get_user_info("456")."""
 )
 

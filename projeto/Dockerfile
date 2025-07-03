@@ -13,4 +13,4 @@ RUN pip install --upgrade pip && \
 EXPOSE 8501
 
 # Comando default (sobrescrito pelo docker-compose)
-CMD ["streamlit", "run", "App.py"]
+CMD ["streamlit", "run", "app.py"]
